@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+
+
+    <title>Simulador de Aliquota</title>
+</head>
+<body>
+    <header>
+            <h1>Receita Federal</h1>
+            
+            <div>
+            <br>Ministerio da Economia</br>
+            </div>
+
+    </header>
+
+
+    <main>
+        <div class="container">
+        <div class="calculation-box"></div>
+
+
+       
+
+
+    <h2> Simulador de Aliquota</h2>
+    <p>Calculo Mensal</p>
+
+
+
+
+     <label for="listaSuspensa">Ano-calendário</label>
+     <select id="listaSuspensa">
+
+
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+    </select>
+
+
+<div class="calculation-box">
+    <input id="rendimento" type="text" placeholder="Rendimento Tributario">
+    <input id="deducoes" type="text" placeholder="Deduções">
+    <input id="baseCalculo" type="text" placeholder="Base de Calculo" readonly>
+    <input id="imposto" type="text" placeholder="Imposto"readonly>
+    <input id="aliquotaEfetiva" type="text" placeholder="Aliquota Efetiva"readonly>
+
+
+    <button id="botaoCalcular">Calcular IR</button>
+</div>
+
+
+</div>
+ </div>
+</main>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
